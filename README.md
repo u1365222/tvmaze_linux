@@ -34,7 +34,7 @@ You can switch between using the TVMaze ID & the show name by using
   Returns the next episode information for the singlesearch match for "1" and TVMaze ID 2 respectively
 
 ####Error Checking:
-  When in ID mode, if the current query is not an integer it will it as a name (but not change the mode)
+  When in ID mode, if the current query is not an integer it will treat it as a name (but not change the mode)
 
   Make sure you are in the correct mode; an integer in name mode is valid as it searching for the number in show names
 
