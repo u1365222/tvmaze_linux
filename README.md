@@ -17,18 +17,20 @@ You can switch between using the TVMaze ID & the show name by using
 
   Setting the mode is done inline and thus continues to search with that mode until the other mode is selected
 
-####getNextEpisodeInfo.sh -mode id 1, 2
+    getNextEpisodeInfo.sh -mode id 1, 2
   Returns the next episode information for TVMaze IDs 1 & 2 respectively
 
-####getNextEpisodeInfo.sh -mode name 1, 2
-####getNextEpisodeInfo.sh 1, 2
+    getNextEpisodeInfo.sh -mode name 1, 2
+    &
+    getNextEpisodeInfo.sh 1, 2
   Returns the next episode information for the singlesearch match for "1" & "2" repsectively
 
-####getNextEpisodeInfo.sh -mode id 1, -mode name 2
+    getNextEpisodeInfo.sh -mode id 1, -mode name 2
   Returns the next episode information for TVMaze ID 1 and the singlesearch match for "2" respectively
 
-####getNextEpisodeInfo.sh -mode name 1, -mode id 2
-####getNextEpisodeInfo.sh 1, -mode id 2
+    getNextEpisodeInfo.sh -mode name 1, -mode id 2
+    &
+    getNextEpisodeInfo.sh 1, -mode id 2
   Returns the next episode information for the singlesearch match for "1" and TVMaze ID 2 respectively
 
 ####Error Checking:
